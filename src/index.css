@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: f1;
+  src: url(./assets/font.woff2);
+}
+
+body {
+  font-family: f1;
+  background-color: #09090A;
+  color: white;
+}
