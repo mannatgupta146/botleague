@@ -1,7 +1,7 @@
-import toolsIcon from "../assets/images/noun-tools-1233695.svg";
-import tajMahalIcon from "../assets/images/noun-taj-mahal-8379012.svg";
-import hotelIcon from "../assets/images/noun-hotel-6701569.svg";
-import usersIcon from "../assets/images/noun-users-7695631.svg";
+import toolsIcon from "../assets/images/page3/noun-tools-1233695.svg";
+import tajMahalIcon from "../assets/images/page3/noun-taj-mahal-8379012.svg";
+import hotelIcon from "../assets/images/page3/noun-hotel-6701569.svg";
+import usersIcon from "../assets/images/page3/noun-users-7695631.svg";
 
 const Page3 = () => {
     return (
