@@ -68,7 +68,7 @@ const Page4 = () => {
                     </h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md min-h-[340px] text-left border border-yellow-500/90 transition-all duration-300">
+                        <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md min-h-[340px] text-left border border-neutral-800 hover:border-yellow-500 transition-all duration-300 cursor-pointer">
                             <div>
                                 <img src={cat1} className="w-24 h-24 mb-6 object-contain" alt="Mini Makers" />
                                 <h3 className="text-lg md:text-[2.3rem] leading-[1.1] font-bold text-white uppercase mb-2 tracking-wide">
@@ -83,7 +83,7 @@ const Page4 = () => {
                             </span>
                         </div>
 
-                        <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md min-h-[340px] text-left border border-neutral-800 transition-all duration-300">
+                        <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md min-h-[340px] text-left border border-neutral-800 hover:border-yellow-500 transition-all duration-300 cursor-pointer">
                             <div>
                                 <img src={cat2} className="w-24 h-24 mb-6 object-contain" alt="Junior Innovators" />
                                 <h3 className="text-lg md:text-[2.3rem] leading-[1.1] font-bold text-white uppercase mb-2 tracking-wide">
@@ -98,7 +98,7 @@ const Page4 = () => {
                             </span>
                         </div>
 
-                        <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md min-h-[340px] text-left border border-neutral-800 transition-all duration-300">
+                        <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md min-h-[340px] text-left border border-neutral-800 hover:border-yellow-500 transition-all duration-300 cursor-pointer">
                             <div>
                                 <img src={cat3} className="w-24 h-24 mb-6 object-contain" alt="Young Engineers" />
                                 <h3 className="text-lg md:text-[2.3rem] leading-[1.1] font-bold text-white uppercase mb-2 tracking-wide">
@@ -113,7 +113,7 @@ const Page4 = () => {
                             </span>
                         </div>
 
-                        <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md min-h-[340px] text-left border border-neutral-800 transition-all duration-300">
+                        <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md min-h-[340px] text-left border border-neutral-800 hover:border-yellow-500 transition-all duration-300 cursor-pointer">
                             <div>
                                 <img src={cat4} className="w-24 h-24 mb-6 object-contain" alt="Robo Minds" />
                                 <h3 className="text-lg md:text-[2.3rem] leading-[1.1] font-bold text-white uppercase mb-2 tracking-wide">
