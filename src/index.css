@@ -14,3 +14,68 @@ body {
 .bg-brand-gradient {
   background: linear-gradient(to right, #F84242, #D91311);
 }
+
+.interactive-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: rgba(38, 38, 38, 0.8) !important; /* border-neutral-800 */
+}
+
+/* Hover effects ONLY on desktop/pointer devices */
+@media (hover: hover) {
+  .interactive-card:hover {
+    border-color: #eab308 !important; /* border-yellow-500 */
+    transform: scale(1.02) translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(234, 179, 8, 0.05);
+  }
+}
+
+/* Tactile press/tap response on BOTH mobile and desktop */
+.interactive-card:active {
+  border-color: #eab308 !important; /* border-yellow-500 */
+  transform: scale(0.98) !important;
+}
+
+/* Page 3 Journey timeline stage circles styling */
+.timeline-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (hover: hover) {
+  .timeline-card:hover {
+    transform: scale(1.05);
+    border-color: #2563eb !important; /* border-blue-600 */
+  }
+}
+.timeline-card:active {
+  transform: scale(0.95) !important;
+  border-color: #2563eb !important; /* border-blue-600 */
+}
+
+/* Page 5 Sports cards styling (Differentiated using Brand Coral-Red) */
+.sports-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: rgba(38, 38, 38, 0.8) !important;
+}
+@media (hover: hover) {
+  .sports-card:hover {
+    border-color: #FF4D4C !important;
+    transform: scale(1.02) translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(255, 77, 76, 0.05);
+  }
+}
+.sports-card:active {
+  border-color: #FF4D4C !important;
+  transform: scale(0.98) !important;
+}
+
+/* Page 7 Ecosystem cards (Borderless, with tactile animations) */
+.borderless-interactive-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (hover: hover) {
+  .borderless-interactive-card:hover {
+    transform: scale(1.02) translateY(-4px);
+  }
+}
+.borderless-interactive-card:active {
+  transform: scale(0.98) !important;
+}

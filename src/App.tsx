@@ -7,7 +7,7 @@ import Page6 from "./pages/page6"
 import Page7 from "./pages/page7"
 import Footer from "./pages/footer"
 
-function App() {
+const App = () => {
   return (
     <div className="bg-[#09090A]">
       <Hero />

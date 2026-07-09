@@ -1,69 +1,38 @@
-# React + TypeScript + Vite
+# 🤖 BotLeague
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Frontend assignment submission for the **Full Stack Developer** role at **BotMakers Pvt Ltd**.
 
-Currently, two official plugins are available:
+[Figma Design Reference](https://www.figma.com/design/9iGNHKi7vwCCnPrBLwwQxc/AI-Shopping-Assistant?node-id=52-2&t=nmiYgJNxr0RVwGiY-1) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ⚡ Core Implementations
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+*   **📱 Responsive Drawer Navigation**: Fully animated responsive hamburger toggle menu that opens an overlay drawer layout for mobile screens.
+*   **✨ Touch-Optimized Interactions**: Isolated hover scaling and translation to desktop-only hover query states (`@media (hover: hover)`) to prevent sticky behaviors on swipe/scroll, combined with active scale-down press states for tactile touch feedback.
+*   **📐 Mobile Layout Safeguards**: Configured relative/absolute stacking boundaries and responsive padding to prevent layout overlaps on narrow viewports.
+*   **🎨 Brand-Tailored Aesthetics**: Integrated brand gradient buttons and color highlights (coral-red and golden-yellow) that flash on tap/hover.
+*   **🔍 Interactive Card Details**: Added custom tap-to-reveal action cards that allow mobile users to toggle and view schematics on tap.
+*   **⚡ Strict Type Safety**: Standardized components using arrow functions, centralized interfaces (`src/types/index.ts`), and strict module syntax compliance.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+*   **Framework**: React 18 & Vite
+*   **Language**: TypeScript (Type-Safe dynamic loops)
+*   **Styling**: Tailwind CSS & Vanilla CSS (in `src/index.css`)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚙️ Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. Clone the repository and install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the local development server:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:5173` in your browser.

@@ -14,18 +14,18 @@ const Footer = () => {
                         </h4>
                         <div className="grid grid-cols-2 gap-8 max-w-md">
                             <div className="flex flex-col gap-3">
-                                <a href="#arena" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">The Arena</a>
-                                <a href="#episodes" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Episodes</a>
-                                <a href="#rankings" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">National Rankings</a>
-                                <a href="#programs" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Programs</a>
-                                <a href="#rulebooks" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Rulebooks</a>
+                                <a href="#arena" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">The Arena</a>
+                                <a href="#episodes" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Episodes</a>
+                                <a href="#rankings" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">National Rankings</a>
+                                <a href="#programs" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Programs</a>
+                                <a href="#rulebooks" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Rulebooks</a>
                             </div>
                             <div className="flex flex-col gap-3">
-                                <a href="#team" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Join the Team</a>
-                                <a href="#sponsorships" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Sponsorships</a>
-                                <a href="#help" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Help Center</a>
-                                <a href="#contact" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Contact Us</a>
-                                <a href="#legal" className="text-[#999999] hover:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Legal</a>
+                                <a href="#team" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Join the Team</a>
+                                <a href="#sponsorships" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Sponsorships</a>
+                                <a href="#help" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Help Center</a>
+                                <a href="#contact" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Contact Us</a>
+                                <a href="#legal" className="text-[#999999] hover:text-[#FF4D4C] active:text-[#FF4D4C] transition-colors text-[1.2rem] font-semibold">Legal</a>
                             </div>
                         </div>
                     </div>
@@ -36,16 +36,16 @@ const Footer = () => {
                                 SOCIAL MEDIA
                             </h4>
                             <div className="flex items-center gap-6 mt-2">
-                                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/mannatgupta146" target="_blank" rel="noopener noreferrer">
                                     <img src={yt} className="h-13 w-13 object-contain hover:opacity-80 transition-opacity cursor-pointer" alt="YouTube" />
                                 </a>
-                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.instagram.com/mannat_1411/" target="_blank" rel="noopener noreferrer">
                                     <img src={ig} className="h-9 w-9 object-contain hover:opacity-80 transition-opacity cursor-pointer" alt="Instagram" />
                                 </a>
-                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/mannatgupta146/" target="_blank" rel="noopener noreferrer">
                                     <img src={fb} className="h-9 w-9 object-contain hover:opacity-80 transition-opacity cursor-pointer" alt="Facebook" />
                                 </a>
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://x.com/mannatgupta146" target="_blank" rel="noopener noreferrer">
                                     <img src={tw} className="h-9 w-9 object-contain hover:opacity-80 transition-opacity cursor-pointer" alt="Twitter" />
                                 </a>
                             </div>
