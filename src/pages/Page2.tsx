@@ -84,7 +84,7 @@ const Page2 = () => {
                   </div>
                 </div>
 
-                <button className="w-full mt-4 bg-[#FF4D4C] hover:bg-[#ff3333] active:scale-[0.98] text-white font-bold py-3 rounded-lg uppercase tracking-widest text-sm transition-all duration-200 cursor-pointer">
+                <button className="w-full mt-4 bg-brand-gradient hover:opacity-90 active:scale-[0.98] text-white font-bold py-3 rounded-lg uppercase tracking-widest text-sm transition-all duration-200 cursor-pointer">
                   REGISTER
                 </button>
               </div>
@@ -111,7 +111,7 @@ const Page2 = () => {
                   </div>
                 </div>
 
-                <button className="w-full mt-4 bg-[#FF4D4C] hover:bg-[#ff3333] active:scale-[0.98] text-white font-bold py-3 rounded-lg uppercase tracking-widest text-sm transition-all duration-200 cursor-pointer">
+                <button className="w-full mt-4 bg-brand-gradient hover:opacity-90 active:scale-[0.98] text-white font-bold py-3 rounded-lg uppercase tracking-widest text-sm transition-all duration-200 cursor-pointer">
                   REGISTER
                 </button>
               </div>

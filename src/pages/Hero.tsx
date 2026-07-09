@@ -48,7 +48,7 @@ const Hero = () => {
 
           <div className="mt-6 flex gap-3">
 
-            <button className="cursor-pointer rounded-lg border border-red-500 bg-red-500 px-5 py-3 text-sm font-medium text-white transition-all duration-300 hover:border-transparent hover:bg-red-600">
+            <button className="cursor-pointer rounded-lg bg-brand-gradient px-5 py-3 text-sm font-medium text-white transition-all duration-300 hover:opacity-90">
               CREATE ACCOUNT
             </button>
 

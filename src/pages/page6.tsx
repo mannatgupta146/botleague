@@ -16,11 +16,11 @@ const Page6 = () => {
                         <div className="flex flex-col gap-10">
                             <div className="flex items-start gap-5 text-left">
                                 <div className="shrink-0 text-[#FF4D4C]">
-                                    <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <circle cx="12" cy="9" r="6" />
-                                        <path d="M9 14.5l-3 6.5 3-1.5 3 1.5-3-6.5" />
-                                        <path d="M15 14.5l3 6.5-3-1.5-3 1.5 3-6.5" />
-                                        <path d="M12 7l1 2h2.5l-2 1.5.5 2.5-2-1.5-2 1.5.5-2.5-2-1.5H11z" fill="currentColor" />
+                                    <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                        <path d="M8.21 13.89L7 2.3h10l-1.21 11.59" />
+                                        <path d="M12 2.3v11.59" />
+                                        <circle cx="12" cy="15" r="5" fill="#09090A" />
+                                        <path d="M12 13l.8 1.6 1.8.3-1.3 1.3.3 1.8-1.6-.9-1.6.9.3-1.8-1.3-1.3 1.8-.3z" fill="currentColor" />
                                     </svg>
                                 </div>
                                 <div>
@@ -35,12 +35,12 @@ const Page6 = () => {
 
                             <div className="flex items-start gap-5 text-left">
                                 <div className="shrink-0 text-[#FF4D4C]">
-                                    <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <path d="m14 13-8.3 8.3a2.1 2.1 0 1 1-3-3L11 10" />
-                                        <path d="m16 16 3-3" />
-                                        <path d="m8 8 3-3" />
-                                        <path d="m9 9 5.4-5.4a2.1 2.1 0 1 1 3 3L12 12" />
-                                        <path d="M7 21h10" />
+                                    <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                                        <path d="M4 19h16" />
+                                        <path d="m8.5 7.5 5 5" />
+                                        <path d="M7 11.5l5-5" />
+                                        <path d="m5 10 3-3c.8-.8 2-.8 2.8 0l3.2 3.2c.8.8.8 2 0 2.8l-3 3c-.8.8-2 .8-2.8 0L5 12.8c-.8-.8-.8-2 0-2.8z" />
+                                        <path d="m13.5 12.5 6.5 6.5" />
                                     </svg>
                                 </div>
                                 <div>

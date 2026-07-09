@@ -14,7 +14,7 @@ const Navbar = () => {
         </div>
         <div className="right flex gap-10">
           <button className="text-[1.2rem] hover:bg-white hover:text-black hover:border-0 transition-all duration-200 cursor-pointer px-4 py-0.5 rounded-md border">LOGIN</button>
-          <button className="text-[1.2rem] bg-[#FF4D4C] transition-all duration-200 cursor-pointer px-4 py-1 rounded-md hover:border hover:bg-transparent">REGISTER NOW</button>
+          <button className="text-[1.2rem] bg-brand-gradient transition-all duration-200 cursor-pointer px-4 py-1 rounded-md hover:border hover:bg-transparent">REGISTER NOW</button>
         </div>
     </div>
   )

@@ -4,6 +4,8 @@ import Page3 from "./pages/Page3"
 import Page4 from "./pages/Page4"
 import Page5 from "./pages/Page5"
 import Page6 from "./pages/page6"
+import Page7 from "./pages/page7"
+import Footer from "./pages/footer"
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Page4 />
       <Page5 />
       <Page6 />
+      <Page7 />
+      <Footer />
     </div>
   )
 }

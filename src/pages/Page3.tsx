@@ -7,7 +7,7 @@ const Page3 = () => {
     return (
         <section className="relative min-h-screen w-full bg-[#09090A] text-white pt-20 pb-16 px-6 md:px-14 lg:px-20 overflow-hidden flex flex-col justify-center border-t border-neutral-900">
             <div className="max-w-7xl mx-auto w-full relative z-10 text-center">
-                <span className="text-xl md:text-2xl font-bold uppercase tracking-widest text-[#FF4D4C] block mb-3">
+                <span className="text-xl md:text-[1.625rem] font-bold uppercase tracking-widest text-[#FF4D4C] block mb-3">
                     USER JOURNEY
                 </span>
 
@@ -34,7 +34,7 @@ const Page3 = () => {
                             <span className="text-xs md:text-sm font-bold uppercase tracking-widest text-[#FF4D4C]">
                                 STEP 1
                             </span>
-                            <h3 className="text-sm md:text-xl tracking-[1.7px] text-white uppercase mt-2 max-w-[200px]">
+                            <h3 className="text-sm md:text-[1.625rem] tracking-[1.7px] text-white uppercase mt-2 max-w-[240px]">
                                 BUILD YOUR TEAM
                             </h3>
                         </div>
@@ -49,7 +49,7 @@ const Page3 = () => {
                             <span className="text-xs md:text-sm font-bold uppercase tracking-widest text-[#FF4D4C]">
                                 STEP 2
                             </span>
-                            <h3 className="text-sm md:text-xl tracking-[1.7px] text-white uppercase mt-2 max-w-[200px]">
+                            <h3 className="text-sm md:text-[1.625rem] tracking-[1.7px] text-white uppercase mt-2 max-w-[240px]">
                                 COMPETE ACROSS INDIA
                             </h3>
                         </div>
@@ -64,7 +64,7 @@ const Page3 = () => {
                             <span className="text-xs md:text-sm font-bold uppercase tracking-widest text-[#FF4D4C]">
                                 STEP 3
                             </span>
-                            <h3 className="text-sm md:text-xl tracking-[1.7px] text-white uppercase mt-2 max-w-[200px]">
+                            <h3 className="text-sm md:text-[1.625rem] tracking-[1.7px] text-white uppercase mt-2 max-w-[240px]">
                                 EARN NATIONAL RANKING & VALUE
                             </h3>
                         </div>
@@ -79,7 +79,7 @@ const Page3 = () => {
                             <span className="text-xs md:text-sm font-bold uppercase tracking-widest text-[#FF4D4C]">
                                 STEP 4
                             </span>
-                            <h3 className="text-sm md:text-xl tracking-[1.7px] text-white uppercase mt-2 max-w-[200px]">
+                            <h3 className="text-sm md:text-[1.625rem] tracking-[1.7px] text-white uppercase mt-2 max-w-[240px]">
                                 JOIN THE LEAGUE
                             </h3>
                         </div>
