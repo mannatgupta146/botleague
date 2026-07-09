@@ -27,7 +27,7 @@ const Page7 = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
                     <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md cursor-pointer borderless-interactive-card">
                         <div>
-                            <h3 className="text-xl md:text-[2rem] text-white uppercase mb-8 tracking-wide leading-none">
+                            <h3 className="text-xl md:text-[1.9rem] text-white uppercase mb-8 tracking-wide leading-none">
                                 BECOME IN JUDGE
                             </h3>
                             <form className="flex flex-col gap-4" onSubmit={(e: React.FormEvent<HTMLFormElement>) => e.preventDefault()}>
@@ -55,7 +55,7 @@ const Page7 = () => {
 
                     <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md cursor-pointer borderless-interactive-card">
                         <div>
-                            <h3 className="text-xl md:text-[2rem] text-white uppercase mb-8 tracking-wide leading-none">
+                            <h3 className="text-xl md:text-[1.9rem] text-white uppercase mb-8 tracking-wide leading-none">
                                 VOLUNTEER
                             </h3>
                             <form className="flex flex-col gap-4" onSubmit={(e: React.FormEvent<HTMLFormElement>) => e.preventDefault()}>
@@ -83,7 +83,7 @@ const Page7 = () => {
 
                     <div className="flex flex-col justify-between p-8 rounded-xl bg-[#131212]/80 backdrop-blur-md cursor-pointer borderless-interactive-card">
                         <div>
-                            <h3 className="text-xl md:text-[2rem] text-white uppercase mb-8 tracking-wide leading-none">
+                            <h3 className="text-xl md:text-[1.9rem] text-white uppercase mb-8 tracking-wide leading-none">
                                 COMMUNITY MEMBER
                             </h3>
                             <form className="flex flex-col gap-4" onSubmit={(e: React.FormEvent<HTMLFormElement>) => e.preventDefault()}>
